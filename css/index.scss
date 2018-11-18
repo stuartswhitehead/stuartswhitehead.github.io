@@ -159,9 +159,11 @@ main {
 								justify-content: center;
 								float: left;
 								width: 33.33333%;
+								height: 90%;
 
 								video {
-									width: 18rem;
+									width: 100%;
+									height: 100%;
 								}
 
 								.caption {
@@ -218,7 +220,7 @@ main {
 								width: 50%;
 
 								video {
-									width: 38rem;
+									width: 100%;
 								}
 							}
 						}
@@ -311,26 +313,8 @@ main {
 						}
 
 						.slides-and-timeline {
-							width: 18rem;
-							overflow: hidden;
-
 							.slides {
-								position: relative;
 								height: 32rem;
-								width: 300%;
-								overflow: hidden;
-
-								.slide {
-									display: flex;
-									flex-wrap: wrap;
-									justify-content: center;
-									float: left;
-									width: 33.33333%;
-
-									video {
-										width: 16rem;
-									}
-								}
 							}
 						}
 					}
@@ -405,7 +389,11 @@ main {
 
 						.slides-and-timeline {
 							.slides {
-								height: 21.5rem;
+								height: 23rem;
+
+								.slide {
+									height: 85%;
+								}
 							}
 						}
 					}
@@ -475,7 +463,11 @@ main {
 
 						.slides-and-timeline {
 							.slides {
-								height: 24rem;
+								height: 27rem;
+
+								.slide {
+									height: 80%;
+								}
 							}
 						}
 					}
@@ -485,7 +477,11 @@ main {
 					.slideshow {
 						.slides-and-timeline {
 							.slides {
-								height: 13rem;
+								height: 15rem;
+
+								.slide {
+									height: 72%;
+								}
 							}
 						}
 					}
