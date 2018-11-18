@@ -1,0 +1,52 @@
+@import 'reset';
+@import 'mixin';
+
+/* Color Palette */
+$bodyTextColor: #1D3649;
+$backgroundColor: #ECF2F2;
+$backgroundColor2: #1C5280;
+$backgroundColor3: #031c15;
+$lightColor1: #D9DCD6;
+$lightColor2: #E7ECEF;
+$lightColor3: #F7F7F2;
+$grayText: #959595;
+$grayBorder: #C8D2D2;
+
+html, body {
+    font-family: 'Helvetica Neue', 'Lato', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    font-weight: 200;
+    color: $bodyTextColor;
+    background: $backgroundColor;
+    height: 100%;
+    width: 100%;
+    font-size: 1rem;
+}
+
+html {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 2.7rem;
+}
+
+h2 {
+	font-size: 1.7rem;
+}
+
+h3 {
+	font-size: 1.2rem;
+}

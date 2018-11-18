@@ -1,0 +1,266 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<title>Stuart Whitehead</title>
+
+	<!-- Meta tags -->
+	<meta name="description" content="Personal website of Stuart Whitehead, professional front end developer and advocate for good design">
+	<meta name="author" content="Stuart Whitehead">
+	<meta charset="utf-8">
+
+	<!-- Favicon -->
+	<link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+	<!-- Font(s) -->
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+
+	<!-- Stylesheet(s) -->
+	<link rel="stylesheet"] href="css/index.css">
+</head>
+
+<body>
+	<div class="container">
+		<nav>
+			<ol>
+				<li onclick="scrollToAbout()"><h2>About</h2></li><span>|</span>
+				<li onclick="scrollToProjects()"><h2>Projects</h2></li><span>|</span>
+				<a href="./resume.pdf"><li><h2>Résumé</h2></li></a>
+			</ol>
+		</nav>
+
+		<header>
+			<img src="./images/avatar.png" />
+
+			<div class="header-text">
+                <h1>Stuart Whitehead</h1>
+                <h2>Front End Engineer</h2>
+                <div class="header-text-skills">
+                    <h3>HTML5/CSS3/JS</h3><span> | </span><h3>Rapid prototyping to support UX teams’ iteration and research</h3><span> | </span><h3>Native iOS & Android development</h3>
+                </div>
+            </div>
+		</header>
+
+		<main>
+			<section class="about">
+				<h1>About</h1>
+
+				<p class="about-text">
+					I'm a front end developer with 5 years of professional experience creating performant and engaging user experiences. I love working directly with UX designers to rapidly prototype their ideas and then make it a reality in production code. I'm skilled in web development (HTML/CSS/Javascript/React) and native mobile development (Android and iOS), and I'm always willing to learn something new. I received my B.S. in Computer Science from Virginia Tech in 2013. 
+				</p>
+
+			</section>
+
+			<section class="projects">
+				<h1>Projects</h1>
+
+				<section class="project img-wide">
+	                <div class="project-text">
+	                    <h2><a href="https://workspace.ibm.com/">Watson Workspace (Web)</a></h2>
+	                    <h3>2016 - present</h3>
+
+	                    <p class="project-description">
+	                        Watson Workspace is a persistent chat client with AI from Watson built in. I develop front end feature work for our web/desktop client. Technologies used include React (JS), HTML, SASS (CSS), and Enzyme.
+	                    </p>
+	                </div>
+
+	                <div class="project-image">
+	                    <a href="https://workspace.ibm.com/">
+	                        <img src="images/ProductUI.png" />
+	                    </a>
+	                </div>
+	            </section>
+
+	            <section class="project img-wide">
+	                <div class="project-text">
+	                    <h2><a href="https://w3.workspace.ibm.com/">Watson Workspace Marketing Site</a></h2>
+	                    <h3>2016 - present</h3>
+
+	                    <p class="project-description">
+	                        I created this site as a marketing home for Watson Workspace. It serves to advertise the products key features, answers FAQ's, and showcases the product's developer ecosystem.
+	                    </p>
+	                </div>
+
+	                <div class="project-image">
+	                    <a href="https://w3.workspace.ibm.com/">
+	                        <img src="images/marketingSite.png" />
+	                    </a>
+	                </div>
+	            </section>
+
+	            <section class="project img-side">
+                    <div class="project-text">
+                        <h2><a href="https://itunes.apple.com/us/app/ibm-watson-workspace/id1128882175?mt=8">Watson Workspace (iOS)</a></h2>
+	                    <h3>2015 - present</h3>
+
+	                    <p class="project-description">
+                            I've been creating prototypes for Watson Workspace since the project's inception. As the design team worked to define the product's features and experience, I prototyped their ideas so they could see it in action. Some of this work was passed along to the development team, while other pieces were experimentation for future concepts. Other prototypes were created to assist user research in testing ideas and gathering feedback.<br/><br/>
+
+                            I also actively contribute to Workspace's iOS production code to ensure it matches our design team's vision. I focus on fixing visual defects to adjust not only fonts, colors, and sizings, but also the behavior and layout of the app for the best presentation possible.
+                        </p>
+                    </div>
+	                    
+                    <div id='slideshow0' class="slideshow">
+                    	<div class="left-arrow slideshow-arrow">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                            <path d="M46.2,56.2l-20-23.7L46.3,8c1.1-1.4,0.9-3.5-0.5-4.6c-1.4-1.2-3.5-0.9-4.6,0.5L17.7,32.6l23.5,27.9c1.2,1.4,3.3,1.6,4.6,0.4
+                            C47.2,59.7,47.4,57.6,46.2,56.2"/>
+                            </svg>
+                        </div>
+
+                        <div class="slides-and-timeline">
+                        	<div class="slides">
+	                            <div class="slide slide-1">
+	                                <video class="video" autoplay loop>
+	                                    <source src="images/toscanaDemo.mp4" type="video/mp4" />
+	                                </video>
+
+	                                <p class="caption">Watson Workspace iOS beta as of May 2016</p>
+	                            </div>
+
+	                            <div class="slide slide-2">
+	                                <video class="video" autoplay loop>
+	                                    <source src="images/toscanaProtoDemo.mp4" type="video/mp4" />
+	                                </video>
+
+	                                <p class="caption">Early prototype, some work implemented in product</p>
+	                            </div>
+
+	                            <div class="slide slide-3">
+	                                <video class="video" autoplay loop>
+	                                    <source src="images/toscanaFirstUseDemo.mp4" type="video/mp4" />
+	                                </video>
+
+	                                <p class="caption">Research prototype of the first use experience</p>
+	                            </div>
+                            </div>
+
+                            <div class="timeline-container">
+                                <div class="timeline-dot-1 selected timeline-dot"></div><div class="timeline-dot-2 timeline-dot"></div><div class="timeline-dot-3 timeline-dot"></div>
+                            </div>
+                        </div>
+
+                        <div class="right-arrow slideshow-arrow">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                            <path d="M18.4,56.2l20-23.7L18.4,8c-1.1-1.4-0.9-3.5,0.5-4.6c1.4-1.2,3.5-0.9,4.6,0.5L47,32.6L23.5,60.5c-1.2,1.4-3.3,1.6-4.6,0.4
+                            C17.4,59.7,17.3,57.6,18.4,56.2"/>
+                            </svg>
+                        </div>
+                    </div>
+                </section>
+
+	            <section class="project img-wide">
+	                <div class="project-text">
+	                    <h2><a href="https://help.workspace.ibm.com">Watson Workspace (Web)</a></h2>
+	                    <h3>2016 - present</h3>
+
+	                    <p class="project-description">
+	                    	With the announcment of Watson Workspace, I had the opportunity to create a help center site for users to learn about the product's features and communicate with the team via forums. We set out to design and develop a first-class support experience that would not only provide how-to articles, but also be visually appealing and consistent with Workspace's branding. I also lead the help center's translation into 9 different languages.
+	                    </p>
+	                </div>
+
+	                <div class="project-image">
+	                    <a href="https://help.workspace.ibm.com">
+	                        <img src="images/helpcenter.png" />
+	                    </a>
+	                </div>
+	            </section>
+
+	            <section class="project img-wide">
+	            	<div class="project-text">
+	                    <h2>Ruby</a></h2>
+	                    <h3>2015</h3>
+
+	                    <p class="project-description">
+	                    	In May of 2015, a need arose to quickly produce a reimagined Connections proof of concept for a high value customer. In three short weeks a team of two designers and I created this fully fleshed out prototype with deep levels of interaction and animation. The hard work played a large role in advancing the deal with the client.
+	                    </p>
+	                </div>
+
+	                <div class="project-image">
+	                    <video class="video" autoplay loop>
+                            <source src="images/rubyDemo.mp4" type="video/mp4" />
+                        </video>
+	                </div>
+	            </section>
+
+	            <section class="project img-wide">
+	            	<div class="project-text">
+	                    <h2>BSS Admin Tool</a></h2>
+	                    <h3>2015</h3>
+
+	                    <p class="project-description">
+	                    	I worked on this wireframe prototype for several months in the first half of 2015. The tool was to be part of an overall offering to assist administrators in migrating their users to cloud services. As the prototype shows, the admin would be able to manage their users' permissions, features, and control other functions as they saw fit. The experience was created by a team of three UX designers. The intent was to hand off much of my code to the eventual development team, but work on the project was indefinitely put on hold in mid-May.
+	                    </p>
+	                </div>
+
+	                <div class="project-image">
+	                    <video class="video" autoplay loop>
+                            <source src="images/bssDemo.mp4" type="video/mp4" />
+                        </video>
+	                </div>
+	            </section>
+
+
+	            <section class="project img-side tablet-size">
+	            	<div class="project-text">
+                        <h2>Connections Mobile</h2>
+	                    <h3>2014</h3>
+
+	                     <p class="project-description">
+                            During my time on Connections Mobile, I worked on both the iOS and Android clients in both prototype and production roles. I fixed visual defects across both apps to ensure a consistent experience. When the design team wanted to execute a major overhaul of the app's overall UI, I created a prototype exploring the new vision.<br/><br/>
+
+                            The prototype brought several new ideas to life, including interesting animation and transition patterns. Afterwards, I worked as part of the product's development team to integrate some of the concepts into the production code.
+                        </p>
+                    </div>
+
+                    <div id='slideshow1' class="slideshow">
+                    	<div class="left-arrow slideshow-arrow">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                            <path d="M46.2,56.2l-20-23.7L46.3,8c1.1-1.4,0.9-3.5-0.5-4.6c-1.4-1.2-3.5-0.9-4.6,0.5L17.7,32.6l23.5,27.9c1.2,1.4,3.3,1.6,4.6,0.4
+                            C47.2,59.7,47.4,57.6,46.2,56.2"/>
+                            </svg>
+                        </div>
+
+                        <div class="slides-and-timeline">
+                        	<div class="slides">
+	                            <div class="slide slide-1">
+	                                <video class="video" autoplay loop muted>
+	                                    <source src="images/connectionsMobileDemo.mp4" type="video/mp4" />
+	                                </video>
+
+	                                <p class="caption">iOS prototype for Connections Mobile UI update</p>
+	                            </div>
+
+	                            <div class="slide slide-2">
+	                                <video class="video" autoplay loop muted>
+	                                    <source src="images/cnxMobileDemo2.mp4" type="video/mp4" />
+	                                </video>
+
+	                                <p class="caption">Connections Mobile as of 2015, including my animations</p>
+	                            </div>
+                            </div>
+
+                            <div class="timeline-container">
+                                <div class="timeline-dot-1 selected timeline-dot"></div><div class="timeline-dot-2 timeline-dot"></div>
+                            </div>
+                        </div>
+
+                        <div class="right-arrow slideshow-arrow">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                            <path d="M18.4,56.2l20-23.7L18.4,8c-1.1-1.4-0.9-3.5,0.5-4.6c1.4-1.2,3.5-0.9,4.6,0.5L47,32.6L23.5,60.5c-1.2,1.4-3.3,1.6-4.6,0.4
+                            C17.4,59.7,17.3,57.6,18.4,56.2"/>
+                            </svg>
+                        </div>
+                    </div>
+                </section>
+            </section>
+		</main>
+	</div>
+
+	<script src="js/jquery-2.1.3.min.js" type="application/javascript"></script>
+    <script src="js/jquery-ui.min.js" type="application/javascript"></script>
+	<script src="js/main-dist.js"></script>
+</body>
+</html>
