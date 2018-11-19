@@ -1,12 +1,12 @@
 // Nav scroll to's
 function scrollToAbout() {
 	document.querySelector('main .about').scrollIntoView({
-		behavior: 'smooth'
+		behavior: 'smooth', block: 'start'
 	});
 }
 function scrollToProjects() {
 	document.querySelector('main .projects').scrollIntoView({
-		behavior: 'smooth'
+		behavior: 'smooth', block: 'start'
 	});
 }
 
