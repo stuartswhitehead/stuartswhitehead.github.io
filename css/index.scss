@@ -11,7 +11,6 @@
 
 .about-text, .project-description {
 	font-family: 'Roboto';
-	font-weight: 300;
 
 	a {
 		font-weight: 400;
@@ -35,6 +34,7 @@ nav {
 		}
 		li:hover {
 			cursor: pointer;
+			color: lighten($lightColor1, 50%);
 		}
 	}
 }
